@@ -1,0 +1,312 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #00b058;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo img{
+    width: 40px;
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 5px;
+    border-left: 2px solid white;
+}
+.pro{
+    padding: 2px 4px;
+    background-color: white;
+    color: black;
+    font-size: 9px;
+    border-radius: 6px;
+}
+
+.items ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+.items ul li{
+    list-style: none;
+}
+
+.items ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+select{
+    width: 14px;
+    background-color: #00b058;
+    color: white;
+    border: none;
+}
+.profile label{
+    font-size: 13px;
+
+}
+.profile{
+    padding: 0 14px;
+    border-left: 2px solid white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.profile img{
+    width: 25px;
+    border-radius: 30px;
+}
+
+.main{
+    width: 100%;
+    height: 95vh;
+   
+    display: flex;
+  
+}
+.left{
+    flex: 1;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+     padding: 20px;
+     background-color: white;
+     
+    
+   
+}
+
+
+.up{
+    flex: 1;
+   
+    border-bottom: 2px solid rgb(180, 175, 175);
+    padding-bottom: 15px;
+      
+}
+
+.middle{
+    flex: 3;
+    padding: 15px 0;
+  
+     padding-bottom: 15px;
+     border-bottom: 2px solid grey;
+
+      
+}
+
+.down{
+    flex: 2;
+  
+    padding: 15px 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.flex img{
+    width: 20px;
+}
+.flex a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.left small{
+    color: rgba(199, 193, 193, 0.959);
+}
+
+
+
+.left .up,.middle{
+    position: relative;
+     opacity: 0.6;
+}
+
+.right{
+    flex: 5;
+    /* border: 1px solid black; */
+    background-color: rgba(226, 214, 214, 0.993);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rup{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    flex-direction: column;
+     margin: 40px;
+   
+}
+.rup .photo{
+    flex: 1;
+    padding: 5px;
+}
+.rup img{
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+     text-align: center;
+}
+.rup{
+    text-align: center;
+}
+
+.rup .info{
+    /* background-color: #00b058; */
+    flex: 1;
+
+}
+
+.info a{
+       text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+
+}
+.rmiddle{
+    flex: 4;
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 15px;
+    display: grid;
+  
+  
+    
+}
+
+.rmiddle .mup{
+    flex: 1;
+    /* background-color: red; */
+    display: flex;
+    column-gap: 25px;
+    
+    
+    
+ 
+}
+
+.mup .u1{
+    flex: 1;
+    background-color: white;
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:20px;
+    
+}
+
+
+.mup .u2{
+   
+    flex: 1;
+    background-color: pink;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:20px;
+}
+.mup .u3{
+    flex: 1;
+    background-color: grey;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:20px;
+}
+
+.rmiddle h3{
+    margin: 20px 5px;
+}
+.right small{
+    color: rgba(199, 193, 193, 0.959);
+}
+
+.rmiddle button{
+    border-radius: 4px;
+    background-color: rgb(253, 255, 253);
+    color: rgb(15, 221, 94);
+    border: 3px solid rgb(15, 221, 94);
+    padding: 5px 10px;
+
+}
+
+
+
+
+
+.rmiddle .mdown{
+     flex: 1;
+     display: flex;
+    /* background-color: orange; */
+    column-gap: 25px;
+
+}
+
+.mdown .d1{
+    flex: 1;
+    background-color: red;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:20px;
+}
+
+.mdown .d2{
+    flex: 1;
+    background-color:white;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:20px;
+}
+.mdown .d3{
+    flex: 1;
+    background-color: orange;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+      padding:25px;
+}
+
+.rdown{
+     flex: 2;
+    background-color: pink;
+    
+}
+
