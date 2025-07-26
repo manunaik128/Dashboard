@@ -1,13 +1,14 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-nav{
+
+nav {
     width: 100%;
     height: 40px;
     background-color: #00b058;
@@ -17,24 +18,27 @@ nav{
     padding: 25px 15px;
     color: white;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     gap: 7px;
 }
 
-.logo img{
+.logo img {
     width: 40px;
 
 }
-.name{
+
+.name {
     display: flex;
     align-items: center;
     padding: 0 10px;
     gap: 5px;
     border-left: 2px solid white;
 }
-.pro{
+
+.pro {
     padding: 2px 4px;
     background-color: white;
     color: black;
@@ -42,32 +46,36 @@ nav{
     border-radius: 6px;
 }
 
-.items ul{
+.items ul {
     display: flex;
     align-items: center;
     gap: 25px;
 
 }
-.items ul li{
+
+.items ul li {
     list-style: none;
 }
 
-.items ul li a{
+.items ul li a {
     text-decoration: none;
     color: white;
     font-size: 13px;
 }
-select{
+
+select {
     width: 14px;
     background-color: #00b058;
     color: white;
     border: none;
 }
-.profile label{
+
+.profile label {
     font-size: 13px;
 
 }
-.profile{
+
+.profile {
     padding: 0 14px;
     border-left: 2px solid white;
     display: flex;
@@ -75,191 +83,219 @@ select{
     gap: 10px;
 
 }
-.profile img{
+
+.profile img {
     width: 25px;
     border-radius: 30px;
 }
 
-.main{
+.main {
     width: 100%;
-    height: 95vh;
-   
+    height: 120vh;
     display: flex;
-  
+       
+
 }
-.left{
+
+.left {
     flex: 1;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-     padding: 20px;
-     background-color: white;
-     
-    
-   
+    padding: 20px;
+    background-color: white;
+
+
+
 }
 
 
-.up{
+.up {
     flex: 1;
-   
+
     border-bottom: 2px solid rgb(180, 175, 175);
     padding-bottom: 15px;
-      
+
 }
 
-.middle{
+.middle {
     flex: 3;
     padding: 15px 0;
-  
-     padding-bottom: 15px;
-     border-bottom: 2px solid grey;
+    padding-bottom: 15px;
+    border-bottom: 2px solid grey;
 
-      
+
 }
 
-.down{
+.down {
     flex: 2;
-  
     padding: 15px 0;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 20px;
 }
 
-.flex img{
+.flex img {
     width: 20px;
 }
-.flex a{
+
+.flex a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
-.left small{
+
+.left small {
     color: rgba(199, 193, 193, 0.959);
 }
 
 
 
-.left .up,.middle{
+.left .up,
+.middle {
     position: relative;
-     opacity: 0.6;
+    opacity: 0.6;
 }
 
-.right{
+.right {
     flex: 5;
     /* border: 1px solid black; */
     background-color: rgba(226, 214, 214, 0.993);
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.rup{
+.rup {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: aqua; */
     flex-direction: column;
-     margin: 40px;
-   
+    margin: 40px;
+
 }
-.rup .photo{
+
+.rup .photo {
     flex: 1;
     padding: 5px;
 }
-.rup img{
+
+.rup img {
     width: 80px;
     border-radius: 50%;
     border: 5px solid white;
-     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-     text-align: center;
-}
-.rup{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     text-align: center;
 }
 
-.rup .info{
+.rup {
+    text-align: center;
+}
+
+.rup .info {
     /* background-color: #00b058; */
     flex: 1;
 
 }
 
-.info a{
-       text-decoration: none;
+.info a {
+    text-decoration: none;
     color: black;
     font-size: 14px;
 
 
 }
-.rmiddle{
-    flex: 4;
+
+.rmiddle {
+    flex: 3;
     display: flex;
     /* background-color: blue; */
     flex-direction: column;
     padding: 20px 40px;
     gap: 15px;
     display: grid;
-  
-  
-    
+
+
+
+
 }
 
-.rmiddle .mup{
+.rmiddle .mup {
     flex: 1;
     /* background-color: red; */
     display: flex;
     column-gap: 25px;
-    
-    
-    
- 
+
+
+
+
 }
 
-.mup .u1{
+.mup .u1 {
     flex: 1;
     background-color: white;
-      align-items: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
-      padding:20px;
-    
+    padding: 20px;
+    border-radius: 5px;
+
 }
 
 
-.mup .u2{
-   
+.mup .u2 {
+
     flex: 1;
-    background-color: pink;
-        align-items: center;
+    background-color: white;
+    align-items: center;
     justify-content: center;
     text-align: center;
-      padding:20px;
-}
-.mup .u3{
-    flex: 1;
-    background-color: grey;
-        align-items: center;
-    justify-content: center;
-    text-align: center;
-      padding:20px;
+    padding: 20px;
+    border-radius: 5px;
+
 }
 
-.rmiddle h3{
+.mup .u3 {
+    flex: 1;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+
+}
+
+.rmiddle h3 {
     margin: 20px 5px;
 }
-.right small{
+
+.rmiddle .B {
+    margin: 25px 5px;
+    padding: 10px 15px;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(224, 217, 217);
+    border: none;
+    box-shadow: 4px 4px 8px gray;
+
+
+}
+
+.right small {
     color: rgba(199, 193, 193, 0.959);
 }
 
-.rmiddle button{
+.rmiddle button {
     border-radius: 4px;
-    background-color: rgb(253, 255, 253);
+    /* background-color: rgb(253, 255, 253); */
     color: rgb(15, 221, 94);
     border: 3px solid rgb(15, 221, 94);
     padding: 5px 10px;
@@ -270,43 +306,60 @@ select{
 
 
 
-.rmiddle .mdown{
-     flex: 1;
-     display: flex;
+.rmiddle .mdown {
+    flex: 1;
+    display: flex;
     /* background-color: orange; */
     column-gap: 25px;
 
 }
 
-.mdown .d1{
+.mdown .d1 {
     flex: 1;
-    background-color: red;
-        align-items: center;
+    background-color: white;
+    align-items: center;
     justify-content: center;
     text-align: center;
-      padding:20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto
 }
 
-.mdown .d2{
+.mdown .d2 {
     flex: 1;
-    background-color:white;
-        align-items: center;
+    background-color: white;
+    align-items: center;
     justify-content: center;
     text-align: center;
-      padding:20px;
+    padding: 20px;
+    border-radius: 5px;
+
 }
-.mdown .d3{
+
+.mdown .d3 {
     flex: 1;
-    background-color: orange;
-        align-items: center;
+    background-color: white;
+    align-items: center;
     justify-content: center;
     text-align: center;
-      padding:25px;
+    padding: 25px;
+    border-radius: 5px;
+
 }
 
-.rdown{
-     flex: 2;
-    background-color: pink;
-    
+.rdown {
+    flex: 3;
+    /* background-color: pink; */
+    padding: 15px;
+
 }
 
+.right p {
+    font-size: 12px;
+}
+
+.rdown a {
+    text-decoration: none;
+    color: rgb(15, 221, 94);
+    font-size: 14px;
+}
